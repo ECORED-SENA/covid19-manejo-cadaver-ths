@@ -1,0 +1,86 @@
+[
+  {
+    "icon": "fa fa-1x fa-home",
+    "slug": "external",
+    "title": "Volver al Inicio",
+    "path": "../"
+  },
+  {
+        "icon": "video",
+        "slug": "introduccion",
+        "title": "1. Introducción",
+        "breadcrumb": ["Inicio","Introducción"],
+        "path": "pages/1-introduccion.html"    
+  },
+  {
+    "icon": "video",
+    "slug": "generalidades-covid19",
+    "title": "2. Generalidades sobre el COVID-19",
+    "breadcrumb": [
+      "Inicio",
+      "Generalidades sobre el COVID-19"
+    ],
+    "path": "pages/generalidades-covid.html"
+  },  
+  {
+    "icon": "document",
+    "slug": "modulo-2",
+    "title": "3. Medidas generales para el manejo de cadáveres con causa de muerte probable o confirmada por el virus COVID-19",
+    "breadcrumb": [
+      "Inicio",
+      "Medidas generales para el manejo de cadáveres"
+    ],
+    "path": "pages/modulo-2.html"
+  },
+  {
+    "icon": "document",
+    "slug": "modulo-3",
+    "title": "4. Protocolo para el manejo del cadáver en el domicilio",
+    "breadcrumb": [
+      "Inicio",
+      "Protocolo para el manejo del cadáver en el domicilio"
+    ],
+    "path": "pages/modulo-3.html"
+  },
+  {
+    "icon": "video",
+    "slug": "modulo-4",
+    "title": "5. Toma de muestras del cadáver",
+    "breadcrumb": [
+      "Inicio",
+      "Toma de muestras del cadáver"
+    ],
+    "path": "pages/modulo-4.html"
+  },
+  {
+    "icon": "video",
+    "slug": "modulo-5",
+    "title": "6. Protocolo para el manejo del cadáver por parte del prestador de salud",
+    "breadcrumb": [
+      "Inicio",
+      "Protocolo para el manejo del cadáver por parte del prestador de salud"
+    ],
+    "path": "pages/modulo-5.html"
+  },
+  {
+    "icon": "document",
+    "slug": "modulo-6",
+    "title": "7. Limpieza y desinfección en área hospitalaria",
+    "breadcrumb": [
+      "Inicio",
+      "Limpieza y desinfección en área hospitalaria"
+    ],
+    "path": "pages/modulo-6.html"
+  },
+  {
+    "icon": "document",
+    "slug": "modulo-7",
+    "title": "8. Certificación médica de la defunción por COVID-19",
+    "breadcrumb": [
+      "Inicio",
+      "Certificación médica de la defunción por COVID-19"
+    ],
+    "path": "pages/modulo-7.html"
+  }  
+
+]

@@ -1,0 +1,176 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+    title EDT-MANEJO CADÁVER SOSPECHOSO O CONFIRMADO POR COVID-19  PARA PERSONAL DE SALUD.
+    meta(meta name="description" content="Este Evento de Divulgación Tecnológica (EDT), presenta en orden secuencial los cuidados y medidas a tener en cuenta por parte de las instituciones de salud, en especial para el talento humano en salud, relacionados con los procesos de manejo del cadáver sospechoso o confirmado por COVID-19 en el servicio hospitalario hasta el traslado interno en la institución.")    
+    link(rel="icon",type="image/svg+xml",href="assets/images/logos/senaLogo.svg")
+    link(rel="stylesheet", href="assets/fonts/feather/feather.css")
+    link(rel="stylesheet", href="assets/fonts/fontawesome/css/font-awesome.css")
+    link(href='assets/css/animate.css', rel='stylesheet')
+    link(rel="stylesheet", href="assets/css/main.css?v=2")
+
+  body
+    header.header__programa
+      .container 
+        .header__nav.row.align-items-center         
+          .header__nav__logo.col-1
+            include ../assets/images/logos/senaLogo.svg
+
+          .header__nav__items.col-11
+            .row.justify-content-end              
+              a(href="#resultados") objetivos
+              a(href="#temas") desarrollo de contenidos
+              a(href="#creditos") créditos
+        .header__info.row.align-items-center
+          .header__info__abstract.col-12.col-lg-6
+            h3.wow.bounceIn Evento de divulgación tecnológica para la mitigación de la pandemia COVID-19            
+            h1.text-uppercase.wow.bounceIn(data-wow-delay=".3s") EDT-MANEJO CADÁVER SOSPECHOSO O CONFIRMADO POR COVID-19  PARA PERSONAL DE SALUD.
+            .horizontal-divider 
+            p.wow.fadeIn(data-wow-delay=".6s") Este Evento de Divulgación Tecnológica (EDT), presenta en orden secuencial los cuidados y medidas a tener en cuenta por parte de las instituciones de salud, en especial para el talento humano en salud, relacionados con los procesos de manejo del cadáver sospechoso o confirmado por COVID-19 en el servicio hospitalario hasta el traslado interno en la institución.   
+            a.btn.btn-danger(href="content/", data-wow-delay=".3s").wow.pulse Ver contenidos        
+          .header__info__imagen.col-md-6.d-none.d-lg-block.wow.bounceInRight(data-wow-delay=".8s")
+            img(src="content/images/header/header_media.svg", data-wow-delay="1.4s").wow.rubberBand
+ 
+    main
+      section#resultados.bgColor-LightBaseColor
+        .container
+          .row.justify-content-center.align-items-start
+            .section_divider.svg_color01
+              include ../assets/images/sectionDivider.svg  
+        .container
+          .row
+            .section__subtitle
+              h2 Objetivos
+              .horizontal-divider
+
+          .row.justify-content-center             
+            .card__goal.col-10              
+              .card__goal__description
+                // span Cod  912948593
+                p Cumplir con la ruta de manejo seguro y transporte de cadáver sospechoso o confirmado por COVID-19 intrahospitalario y extramural teniendo en cuenta lineamientos de la OPS y Min Salud   
+      section#temas.bgColor-NeutralBaseColor
+        .container
+          .row.justify-content-center.align-items-start
+            .section_divider.svg_color02
+              include ../assets/images/sectionDivider.svg 
+        .container
+          .row
+            .section__subtitle
+              h2 Desarrollo de
+                br
+                |contenidos
+              .horizontal-divider
+
+          .row.justify-content-center
+            .col-12.col-sm-10
+              .card.wow.flipInX(data-wow-delay=".4s")
+                .card-body
+                  ul.list-group.list-group-flush.list.my-n3.nav-temas
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 1
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/introduccion/") Introducción
+                        .col-auto
+                          // Button
+                          a(href='content/#page/introduccion/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 2
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/generalidades-covid19/") Generalidades sobre el COVID-19
+                        .col-auto
+                          // Button
+                          a(href='content/#page/generalidades-covid19/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 3
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/modulo-2/") Medidas generales para el manejo de cadáveres con causa de muerte probable o confirmada por el virus covid-19
+                        .col-auto
+                          // Button
+                          a(href='content/#page/modulo-2/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 4
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/modulo-3/") Protocolo para el manejo del cadaver en el domicilio. 
+                        .col-auto
+                          // Button
+                          a(href='content/#page/modulo-3/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 5
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/modulo-4/") Toma de muestras del cadaver. 
+                        .col-auto
+                          // Button
+                          a(href='content/#page/modulo-4/').btn.btn-light.nav-tema-item__btn
+                            | Ver más             
+
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 6
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/modulo-5/") Protocolo para el manejo del cadaver por parte del prestador de salud. 
+                        .col-auto
+                          // Button
+                          a(href='content/#page/modulo-5/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 7
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/modulo-6/") Limpieza y desinfección en area hospitalaria. 
+                        .col-auto
+                          // Button
+                          a(href='content/#page/modulo-6/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 8
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/modulo-7/") Certificación médica de la defunción por COVID-19. 
+                        .col-auto
+                          // Button
+                          a(href='content/#page/modulo-7/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+
+
+    include content/includes/creditos.pug
+             
+
+    script(src="assets/js/plugins.js")
+    script(src="content/js/pages.js")

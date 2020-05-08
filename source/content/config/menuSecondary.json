@@ -1,0 +1,25 @@
+[
+    {
+        "icon": "documents",
+        "slug": "material-complementario",
+        "title": "Material Complementario",
+        "breadcrumb": [
+            "Material Complementario"
+        ],
+        "path": "pages/material-complementario.html"
+    },
+    {
+        "icon": "glossary",
+        "slug": "glosario",
+        "title": "Glosario",
+        "breadcrumb": ["Glosario"],
+        "path": "config/glosario.json"
+    },
+    {
+        "icon": "bibliography",
+        "slug": "referencias",
+        "title": "Referencias bibliográficas",
+        "breadcrumb": ["Referencias bibliográficas"],
+        "path": "pages/referencias.html"
+    }
+]
